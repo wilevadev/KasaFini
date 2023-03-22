@@ -1,0 +1,35 @@
+.allCollapse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .collapse-wrapper {
+    width: 80%;
+    margin-top: 16px;
+    margin-bottom: 17px;
+    
+  }
+  .collapse-content{
+    padding:27px 27px 18px 19px;
+    text-align: left;
+   
+  }
+  
+  /* Pour les écrans de tablettes */
+  @media screen and (max-width: 768px) {
+    .collapse-wrapper {
+      width: 90%;
+    }
+  }
+  
+  /* Pour les écrans de mobiles */
+  @media screen and (max-width: 480px) {
+    .collapse-wrapper {
+      width: 100%;
+    }
+  }
+
