@@ -59,7 +59,8 @@
   }
   .collapsible button::before {
     height: 15.195881843566895px;
-    top: 50%;
+    width: 8.95635986328125px;
+    border-radius: 0px;
     transform: translateY(-50%) rotate(-90deg);
   }
   .collapsible.active .content {

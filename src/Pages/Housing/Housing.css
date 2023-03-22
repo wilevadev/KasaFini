@@ -49,6 +49,7 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
+    margin-top: 24px;
     
   }
   .single-line-text{
@@ -136,6 +137,7 @@
           flex-direction: row-reverse;
           justify-content: space-between;
           align-items: center;
+          margin-top: 16.3px;
          
         } 
         .Collapse1{

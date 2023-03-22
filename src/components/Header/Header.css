@@ -19,7 +19,7 @@
   gap: 57px;
 }
 
-.nav-link {
+.link {
   text-decoration: none;
   color: #ff6060;
   transition: 0.5s;
@@ -29,18 +29,16 @@
   text-align: right;
 }
 
-.nav-link:hover,
-.nav-link.active {
+.link:hover,
+.link.active {
   text-decoration: underline;
 }
 
 @media screen and (max-width: 991px) {
-  .header {
-    padding: 20px;
-  }
+
 
   .logo-kasa {
-    max-width: 100%;
+    max-width: 145pxg;
     max-height: 47px;
   }
 
@@ -48,7 +46,7 @@
     gap: 10px;
   }
 
-  .nav-link {
+  .link {
     text-transform: uppercase;
     font-family: Montserrat;
     font-size: 12px;

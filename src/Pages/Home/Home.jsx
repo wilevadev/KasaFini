@@ -17,7 +17,7 @@ const Home = () => {
 
   // Charger les données JSON au montage du composant
   useEffect(() => {
-    fetch('/logements.json')
+    fetch('/Logements.json')
       .then((res) => res.json())
       .then((data) => setData(data))
       .catch((error) => console.error(error));
