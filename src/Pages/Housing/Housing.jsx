@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams} from 'react-router-dom';
+
 // Import des composants
 
 import Collapse from '../../components/Collapse/Collapse';
@@ -10,7 +11,7 @@ import Tag from '../../components/Tags/Tags';
 import './Housing.css';
 
 // Création de la page Housing
-const Housing = () => {
+const Housing = ({history}) => {
   // Utilisation de useState pour gérer les données et les données du logement
   const [data, setData] = useState([]);
   const { id } = useParams();
@@ -21,8 +22,8 @@ const Housing = () => {
     fetch('/logements.json')
       .then((res) => res.json())
       .then((data) => setData(data))
-      .catch((error) => console.error(error));
-  }, []);
+      .catch(() => history.push('/error'));
+  }, [history]);
 
   // Mettre à jour les données du logement lorsque "data" ou "id" changent
   useEffect(() => {

@@ -18,6 +18,8 @@ body {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
   flex: 1 1;
   width: 100%;
 }
@@ -32,7 +34,8 @@ img {
 }
 @media screen and (max-width: 991px){
   .main-container{
-    margin-left: 20px;
-    margin-right: 20px;
+    flex: 0;
+   
+    max-width: none;
   } 
 }
