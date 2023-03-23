@@ -11,6 +11,7 @@
 .logo-kasa {
   height: 68px;
   width: 210.32154846191406px;
+  padding-right: 20px;
   
 }
 
@@ -38,7 +39,7 @@
 
 
   .logo-kasa {
-    max-width: 145pxg;
+    max-width: 145px;
     max-height: 47px;
   }
 

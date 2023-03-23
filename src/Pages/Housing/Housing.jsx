@@ -46,8 +46,7 @@ const Housing = () => {
   // Rendu de la page Housing
   return (
     <div>
-      
-        {/* Vérifie si HousingData n'est pas vide */}
+      {/* Vérifie si HousingData n'est pas vide */}
         {HousingData && Object.keys(HousingData).length !== 0 ? (
           <div className="logement">
             <div className="logement-details">
@@ -89,7 +88,7 @@ const Housing = () => {
                   {/* Description du logement */}
                   <Collapse
                     id="description"
-                    title="Description"
+                    title={<span className='collapse-title'>Description</span>}
                     content={
                       <div className="description-content">{description}</div>
                     }
@@ -99,7 +98,7 @@ const Housing = () => {
                   {/* Liste des équipements */}
                   <Collapse
                     id="equipments"
-                    title="Équipements"
+                    title={<span className='collapse-title'>Equipements</span>}
                     content={
                       <ul className="comma-list">
                         {equipments.map((equipment) => (
@@ -113,10 +112,7 @@ const Housing = () => {
               </div>
             </div>
           ) : null}
-        
-        {/* Footer */}
-    
-      </div>
+        </div>
     );
   };
   

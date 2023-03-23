@@ -10,13 +10,10 @@ const App = () => {
         <>
         <div className="main-container">
         <Header />
-       
           <AppRoutes />
         </div>
-        
         <Footer />
-       
-      </> 
+       </> 
     );
 };
 export default App;
