@@ -1,7 +1,7 @@
 // Import des bibliothèques React et ReactDOM
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
+import { BrowserRouter } from "react-router-dom";
 // Import du composant App
 import App from './App';
 
@@ -11,8 +11,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // Rendu de l'application en mode strict
 root.render(
   <React.StrictMode>
-    {/* Intégration du composant App */}
-    <App />
+   <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

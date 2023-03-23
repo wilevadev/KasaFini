@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 // Import des composants
-import Header from '../../components/Header/Header';
-import Footer from '../../components/Footer/Footer';
+
 import Collapse from '../../components/Collapse/Collapse';
 import Carousel from '../../components/Carousel/Carousel';
 import StarRating from '../../components/Stars/Stars';
@@ -19,7 +18,7 @@ const Housing = () => {
 
   // Charger les données JSON au montage du composant
   useEffect(() => {
-    fetch('/Logements.json')
+    fetch('/logements.json')
       .then((res) => res.json())
       .then((data) => setData(data))
       .catch((error) => console.error(error));
@@ -47,8 +46,7 @@ const Housing = () => {
   // Rendu de la page Housing
   return (
     <div>
-      <div className='main-container'>
-        <Header />
+      
         {/* Vérifie si HousingData n'est pas vide */}
         {HousingData && Object.keys(HousingData).length !== 0 ? (
           <div className="logement">
@@ -115,11 +113,9 @@ const Housing = () => {
               </div>
             </div>
           ) : null}
-        </div>
+        
         {/* Footer */}
-        <div className='footer-container'>
-          <Footer />
-        </div>
+    
       </div>
     );
   };

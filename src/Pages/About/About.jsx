@@ -1,7 +1,6 @@
 import React from 'react';
 // Import des composants
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
+
 import Banner from "../../components/Banner/Banner";
 import Collapse from '../../components/Collapse/Collapse';
 // Import du fichier CSS
@@ -15,10 +14,7 @@ const About = () => {
   // Rendu du composant About
   return (
     <div>
-      <div className='main-container'>
-        {/* Affichage du composant Header */}
-        <Header />
-        {/* Affichage de la bannière avec l'image importée */}
+      {/* Affichage de la bannière avec l'image importée */}
         <Banner image={aboutBannerImage} />
         {/* Conteneur pour les éléments Collapse */}
         <div className='allCollapse'>
@@ -39,11 +35,9 @@ const About = () => {
             <Collapse id="securite" title="Sécurité" content={<div className="collapse-content">La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes.</div>} />
           </div>
         </div>
-      </div>
+      
       {/* Affichage du composant Footer */}
-      <div className='footer-container'>
-        <Footer />
-      </div>
+      
     </div>
   );
 };
