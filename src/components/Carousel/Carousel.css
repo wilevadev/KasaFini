@@ -7,7 +7,13 @@
   top: 0px;
   border-radius: 25px;
 }
-
+.carousel::after{
+  background: linear-gradient(180deg,hsla(0,0%,100%,0),rgba(0,0,0,.5));
+    content: "";
+    inset: 0;
+    position: absolute;
+    opacity: 30%;
+}
 
 
 .carousel-images img {
@@ -27,6 +33,7 @@
   align-items: center;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
+  z-index: 1;
 }
 
 .carousel-arrow-left {

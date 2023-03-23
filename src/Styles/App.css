@@ -18,10 +18,10 @@ body {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-}
-.footer-container{
+  flex: 1 1;
   width: 100%;
 }
+
 img {
   width: 100%;
 }

@@ -13,9 +13,9 @@ const App = () => {
        
           <AppRoutes />
         </div>
-        <div className='footer-container'>
+        
         <Footer />
-        </div>
+       
       </> 
     );
 };

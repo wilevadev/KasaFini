@@ -4,7 +4,7 @@ import "../Footer/Footer.css"
 
 const Footer = () => {
     return (
-        <footer>
+        <div className='footer'>
             {/* Contenu du pied de page */}
             <div className="footer-content">
                 {/* Logo du pied de page */}
@@ -12,7 +12,7 @@ const Footer = () => {
                 {/* Texte de copyright */}
                 <p className='title-footer'>© 2020 Kasa. All rights reserved</p>
             </div>
-        </footer>
+        </div>
     );
 };
 
