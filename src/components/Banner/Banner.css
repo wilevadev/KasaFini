@@ -28,6 +28,11 @@
     border-radius: 10px;
     
     }
-    
+    .banner img {
+      border-radius: 10px;
+    }
+    .banner::after{
+      border-radius: 10px;
+    }
 }
   

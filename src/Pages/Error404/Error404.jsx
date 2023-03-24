@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Error404 = () => {
   // Rendu du composant Error404
   return (
-    <div>
+    
       <div>
           {/* Affichage du code d'erreur */}
           <p className='error'>404</p>
@@ -17,7 +17,7 @@ const Error404 = () => {
           {/* Lien pour revenir à la page d'accueil */}
           <Link to="/" className='retour'> Retour à la page d'accueil</Link>
         </div>
-      </div>
+      
   );
 };
 

@@ -27,7 +27,7 @@ const Home = () => {
         <div className="banner-title">
           {/* Titre sur la bannière */}
           <p>
-            Chez vous,<span>partout et ailleurs</span>
+            Chez vous,<span> partout et ailleurs</span>
           </p>
         </div>
       </div>
