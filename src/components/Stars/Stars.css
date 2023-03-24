@@ -14,8 +14,9 @@
    .star{
     height: 15px;
     width: 15px;
-
-
-   }
+    }
+    .star-rating{
+        margin-right: 0px;
+    }
      
    }
