@@ -36,9 +36,7 @@
 }
 
 @media screen and (max-width: 991px) {
-.header{
-  padding: 20px;
-}
+
   .logo-kasa {
     max-width: 145px;
     max-height: 47px;
@@ -56,4 +54,11 @@
     line-height: 17px;
     text-align: right;
   }
+
+}
+@media screen and (max-width: 315px){
+  .header nav{
+    display: flex;
+    flex-direction: column;
+  } 
 }
