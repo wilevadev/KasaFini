@@ -168,23 +168,5 @@
   .description {
     margin-bottom: 20.07px;
   }
-  .description-content {
-    padding-top: 23.02;
-    padding-bottom: 1.3px;
-    padding-left: 11.51px;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-  .comma-list{
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left; 
-  }
+
 }
