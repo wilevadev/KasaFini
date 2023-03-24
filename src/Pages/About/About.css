@@ -24,12 +24,15 @@
     .collapse-wrapper {
       width: 90%;
     }
-  }
-  
-  /* Pour les écrans de mobiles */
-  @media screen and (max-width: 480px) {
     .collapse-wrapper {
       width: 100%;
     }
+    .collapse-content{
+      padding:23.08px 27px 52.58px 11.51px;
+      text-align: left;
+     
+    }
   }
+  
+
 
