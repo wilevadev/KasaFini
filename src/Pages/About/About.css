@@ -20,13 +20,8 @@
   }
   
   /* Pour les écrans de tablettes */
-  @media screen and (max-width: 768px) {
-    .collapse-wrapper {
-      width: 90%;
-    }
-    .collapse-wrapper {
-      width: 100%;
-    }
+  @media screen and (max-width: 991px) {
+
     .collapse-content{
       padding:23.08px 27px 52.58px 11.51px;
       text-align: left;

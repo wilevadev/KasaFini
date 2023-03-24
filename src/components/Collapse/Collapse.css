@@ -1,6 +1,6 @@
 .collapsible button {
   justify-content: center;
-  height: 52px;
+  height: 47px;
   background-color: #FF6060;
   color: #fff;
   border: none;
@@ -52,7 +52,7 @@
   margin-top: -10px;
 }
 .content{
-  font-family: Montserrat;
+ 
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
