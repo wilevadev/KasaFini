@@ -41,7 +41,7 @@
   display: flex;
   justify-content: space-between;
 
-  height: 176px;
+  
 }
 
 .right-column {
@@ -116,8 +116,10 @@
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
+    margin-top: 15px;
   }
   .locations {
+    margin-top: 5px;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
@@ -138,6 +140,12 @@
     letter-spacing: 0em;
     text-align: right;
     margin-left: 0px;
+  }
+  .host-image {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -171,3 +179,4 @@
   }
 
 }
+

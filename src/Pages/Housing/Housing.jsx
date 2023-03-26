@@ -1,19 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-
 import Collapse from '../../components/Collapse/Collapse';
 import Carousel from '../../components/Carousel/Carousel';
 import StarRating from '../../components/Stars/Stars';
 import Tag from '../../components/Tags/Tags';
 import './Housing.css';
-
-
 const Housing = () => {
   const { id } = useParams();
   const [HousingData, setHousingData] = useState({});
   const navigate = useNavigate();
-
-  useEffect(() => {
+ useEffect(() => {
     fetch('/Logements.json')
       .then((res) => res.json())
       .then((data) => {
@@ -23,8 +19,7 @@ const Housing = () => {
       })
       .catch(() => navigate('/404'));
   }, [id, navigate]);
-
-  const {
+   const {
     title,
     pictures,
     description,
@@ -34,8 +29,7 @@ const Housing = () => {
     location,
     equipments,
   } = HousingData;
-
-  return (
+return (
     <div>
       {HousingData && Object.keys(HousingData).length !== 0 ? (
         <div className="logement">
