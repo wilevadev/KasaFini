@@ -13,7 +13,7 @@ const Card = ({ housing }) => {
   return (
     <div className="card-container" onClick={handleOnClick} style={{ cursor: "pointer" }}>
       <img src={housing.cover} alt={housing.title} />
-      <h3>{housing.title}</h3>
+      <p>{housing.title}</p>
     </div>
   );
 };

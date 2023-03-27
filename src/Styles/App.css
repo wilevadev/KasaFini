@@ -32,7 +32,7 @@ img {
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width: 991px){
+@media screen and (max-width: 1023px){
   .main-container{
     flex: 0;
    

@@ -35,7 +35,7 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1023px) {
 
   .logo-kasa {
     max-width: 145px;

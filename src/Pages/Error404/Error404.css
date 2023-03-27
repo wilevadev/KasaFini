@@ -28,7 +28,7 @@
     text-align: center;
     height: 25.67px;
   }
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1023px) {
     .error {
       font-family: Montserrat;
       font-size: 96px;

@@ -10,7 +10,7 @@
     height: 30px;
     width: 30px;
    }
-   @media screen and (max-width: 991px){
+   @media screen and (max-width: 1023px){
    .star{
     height: 15px;
     width: 15px;

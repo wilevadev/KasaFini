@@ -8,7 +8,7 @@ import starIcono from '../../assets/img/Starso.png'
 // Création du composant Stars avec la propriété 'rating'
 const Stars = ({ rating }) => {
   // Calcul du nombre d'étoiles remplies et vides
-  const filledStars = Math.round(rating);
+  const filledStars = parseInt(rating);
   const emptyStars = 5 - filledStars;
 
   // Rendu du composant Stars

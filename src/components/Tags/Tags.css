@@ -21,7 +21,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1023px) {
   .tag {
     height: 18px;
     border-radius: 5px;

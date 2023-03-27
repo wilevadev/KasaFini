@@ -35,7 +35,7 @@ color: #ffffff;
 margin-bottom: 29px;
 white-space: nowrap;
 }
-@media screen and (max-width: 991px){
+@media screen and (max-width: 1023px){
   .title-footer{
     
     font-size: 12px;

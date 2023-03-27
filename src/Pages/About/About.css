@@ -20,7 +20,7 @@
   }
   
   /* Pour les écrans de tablettes */
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1023px) {
 
     .collapse-content{
       padding:23.08px 27px 52.58px 11.51px;
